@@ -24,12 +24,12 @@ end
 
 --@help Previous track
 actions.previous = function()
-  kb.stroke("p");
+  kb.stroke("<");
 end
 
 --@help Next track
 actions.next = function()
-  kb.stroke("n");
+  kb.stroke(">");
 end
 
 --@help Skip forward 10 secs
